@@ -1,5 +1,5 @@
-function getRandomLetter() {
-    let string = "abnksoposnkjuwde";
-    let  text = string.charAt(Math.floor(Math.random() * string.length));
-    return text;
+
+function getRandomNumber() {
+    let  number = Math.floor(Math.random()*10);
+    return number;
 }
